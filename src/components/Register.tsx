@@ -6,6 +6,7 @@ import { SiteTheme } from "../App";
 import { successMsg } from "../services/feedbackServices";
 import { addUser } from "../services/userServices";
 import Footer from "./Footer";
+import { createUserFavs } from "../services/favoritesServices";
 
 interface RegisterProps {
     setIsLoggedIn: Function
@@ -42,11 +43,14 @@ const Register: FunctionComponent<RegisterProps> = ({
                         JSON.stringify({
                             email: res.data.email,
                             role: res.data.role,
+                            userId: res.data.id,
                         })
                     );
                     setIsLoggedIn(true)
                     { navigate("/") }
                     successMsg(`${values.email} has Succesfully Registered, Welcome!`);
+                    createUserFavs(res.data.id)
+                        .then((result) => { console.log(result) })
                 })
                 .catch((error) => console.log(error))
         }

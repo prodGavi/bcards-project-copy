@@ -101,6 +101,57 @@
       "zip": 11023,
       "role": "user",
       "id": 6
+    },
+    {
+      "firstName": "dad",
+      "middleName": "dad",
+      "lastName": "Feldman",
+      "password": "12345678",
+      "phone": "0584640677",
+      "email": "dad@gmail.com",
+      "image": "gavi feldman",
+      "state": "",
+      "country": "Israel",
+      "city": "Jerusalem",
+      "street": "בית הערבה",
+      "houseNumber": 40,
+      "zip": 933890,
+      "role": "user",
+      "id": 7
+    },
+    {
+      "firstName": "momz",
+      "middleName": "momomom",
+      "lastName": "momomomom",
+      "password": "12345678",
+      "phone": "304958340598",
+      "email": "momz@gmail.com",
+      "image": "gavi feldman",
+      "state": "",
+      "country": "Israel",
+      "city": "Jerusalem",
+      "street": "בית הערבה",
+      "houseNumber": 40,
+      "zip": 933890,
+      "role": "user",
+      "id": 8
+    },
+    {
+      "firstName": "Michael",
+      "middleName": "Whitman",
+      "lastName": "Whitman",
+      "password": "12345678",
+      "phone": "0568754635",
+      "email": "MCW@gmail.com",
+      "image": "gavi feldman",
+      "state": "",
+      "country": "Israel",
+      "city": "Jerusalem",
+      "street": "בית הערבה",
+      "houseNumber": 40,
+      "zip": 933890,
+      "role": "business",
+      "id": 9
     }
   ],
   "bCards": [
@@ -157,6 +208,57 @@
       "zip": 9434001,
       "userId": 4,
       "id": 3
+    },
+    {
+      "title": "Michael's Tutoring",
+      "subtitle": "Your Studies, Our Priority",
+      "description": "Michael is a long time tutor and teacher of all elementary level studies, and provides in person or online help for all. ",
+      "phone": "0578461473",
+      "email": "MCW@gmail.com",
+      "web": "alijflkdjhf",
+      "image": "https://www.burbankusd.org/cms/lib/CA50000426/Centricity/Domain/1141/istockphoto-481265276-612x612.jpg",
+      "imageAlt": "Michaels Tutoring logo image",
+      "state": "",
+      "city": "Halifax",
+      "country": "Canada",
+      "street": "Summer Street",
+      "houseNumber": 1176,
+      "zip": 11023,
+      "userId": 9,
+      "id": 4
+    }
+  ],
+  "favorites": [
+    {
+      "userId": 1,
+      "id": 1,
+      "favorites": [
+        {
+          "title": "GabiGabot",
+          "subtitle": "Your Eyebrows Our Responsibilty",
+          "description": "Local Trusted Eyebrow Microblading And Permanent Makeup Salon. You Are Our Priority",
+          "phone": "0529867367",
+          "email": "GBGB@gmail.com",
+          "web": "https://tellingbeatzz.com/",
+          "image": "https://thebrowfixx.b-cdn.net/wp-content/uploads/2020/10/Brows-By-Naomi-is-now-The-Brow-Fixx.png",
+          "imageAlt": "Eyebrow salon photo",
+          "state": "",
+          "city": "Jerusalem",
+          "country": "Israel",
+          "street": "Aliyahu Lankin",
+          "houseNumber": 14,
+          "zip": 9338556,
+          "id": 2,
+          "userId": 2
+        }
+      ],
+      "active": true
+    },
+    {
+      "userId": 9,
+      "products": [],
+      "active": true,
+      "id": 2
     }
   ]
 }

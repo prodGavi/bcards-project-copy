@@ -26,7 +26,7 @@ const Navbar: FunctionComponent<NavbarProps> = ({
                             <NavLink className="nav-link active" aria-current="page" to="/about" style={{ color: theme.color }}>About</NavLink>
                         </li>
                         {isLoggedIn && <><li className="nav-item mx-3 float-background" >
-                            <NavLink className="nav-link active" aria-current="page" to="#" style={{ color: theme.color }}>Favorites</NavLink>
+                            <NavLink className="nav-link active" aria-current="page" to="/favorites" style={{ color: theme.color }}>Favorites</NavLink>
                         </li>
                             {(JSON.parse(sessionStorage.getItem("userInfo") as string).role == "admin" || JSON.parse(sessionStorage.getItem("userInfo") as string).role == "business") && <><li className="nav-item mx-3 float-background" >
                                 <NavLink className="nav-link active" aria-current="page" to="/mycards" style={{ color: theme.color }}>Your Cards</NavLink>

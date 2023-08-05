@@ -13,6 +13,7 @@ import NewCard from './components/NewCard';
 import Profile from './components/Profile';
 import MyCards from './components/MyCards';
 import About from './components/About';
+import Favorites from './components/Favorites';
 
 let themes = {
   light: { color: "#9DB2BF", color2: "#DDE6ED", color3: "#B2A4FF", background: "#27374D", background2: "#526D82", background3: "#e2f0ff64" },
@@ -45,6 +46,7 @@ function App() {
             <Route path='/about' element={<About />} />
             <Route path='/mycards' element={<MyCards />} />
             <Route path='/updatecard/:id' element={<UpdateCard />} />
+            <Route path='favorites' element={<Favorites />} />
             <Route path='/mycards/updatecard/:id' element={<UpdateCard />} />
             <Route path='/carddetails/:id' element={<ProductDetails />} />
             <Route path='/mycards/carddetails/:id' element={<ProductDetails />} />

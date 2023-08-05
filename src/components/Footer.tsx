@@ -9,7 +9,7 @@ interface FooterProps {
 const Footer: FunctionComponent<FooterProps> = () => {
     let theme = useContext(SiteTheme)
     return (<>
-        <footer className="text-center" style={{ color: theme.color, background: theme.background }}>
+        <footer className="text-center footer" style={{ color: theme.color, background: theme.background }}>
             <div className="container pt-4">
                 <section className="">
                     <Link

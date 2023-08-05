@@ -37,6 +37,7 @@ const Login: FunctionComponent<LoginProps> = (
                             JSON.stringify({
                                 email: res.data[0].email,
                                 role: res.data[0].role,
+                                userId: res.data[0].id
                             })
                         );
                     } else {
